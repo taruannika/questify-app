@@ -4,51 +4,51 @@ export const Themes: Theme[] = [
   {
     id: 1,
     name: "light",
-    image: "/light.png",
+    image: "/questify-app/light.png",
   },
   {
     id: 2,
     name: "dark",
-    image: "/dark.png",
+    image: "/questify-app/dark.png",
   },
   {
     id: 3,
     name: "forest",
-    image: "/forest.png",
+    image: "/questify-app/forest.png",
   },
   {
     id: 4,
     name: "business",
-    image: "/business.png",
+    image: "/questify-app/business.png",
   },
   {
     id: 5,
     name: "acid",
-    image: "/acid.png",
+    image: "/questify-app/acid.png",
   },
   {
     id: 6,
     name: "winter",
-    image: "/winter.png",
+    image: "/questify-app/winter.png",
   },
   {
     id: 7,
     name: "nord",
-    image: "/nord.png",
+    image: "/questify-app/nord.png",
   },
   {
     id: 8,
     name: "silk",
-    image: "/silk.png",
+    image: "/questify-app/silk.png",
   },
   {
     id: 9,
     name: "corporate",
-    image: "/corporate.png",
+    image: "/questify-app/corporate.png",
   },
   {
     id: 10,
     name: "sunset",
-    image: "/sunset.png",
+    image: "/questify-app/sunset.png",
   },
 ];
