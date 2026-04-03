@@ -4,51 +4,51 @@ export const Themes: Theme[] = [
   {
     id: 1,
     name: "light",
-    image: "/questify-app/light.png",
+    image: `${import.meta.env.BASE_URL}light.png`,
   },
   {
     id: 2,
     name: "dark",
-    image: "/questify-app/dark.png",
+    image: `${import.meta.env.BASE_URL}dark.png`,
   },
   {
     id: 3,
     name: "forest",
-    image: "/questify-app/forest.png",
+    image: `${import.meta.env.BASE_URL}forest.png`,
   },
   {
     id: 4,
     name: "business",
-    image: "/questify-app/business.png",
+    image: `${import.meta.env.BASE_URL}business.png`,
   },
   {
     id: 5,
     name: "acid",
-    image: "/questify-app/acid.png",
+    image: `${import.meta.env.BASE_URL}acid.png`,
   },
   {
     id: 6,
     name: "winter",
-    image: "/questify-app/winter.png",
+    image: `${import.meta.env.BASE_URL}winter.png`,
   },
   {
     id: 7,
     name: "nord",
-    image: "/questify-app/nord.png",
+    image: `${import.meta.env.BASE_URL}nord.png`,
   },
   {
     id: 8,
     name: "silk",
-    image: "/questify-app/silk.png",
+    image: `${import.meta.env.BASE_URL}silk.png`,
   },
   {
     id: 9,
     name: "corporate",
-    image: "/questify-app/corporate.png",
+    image: `${import.meta.env.BASE_URL}corporate.png`,
   },
   {
     id: 10,
     name: "sunset",
-    image: "/questify-app/sunset.png",
+    image: `${import.meta.env.BASE_URL}sunset.png`,
   },
 ];
