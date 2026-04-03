@@ -13,6 +13,7 @@ const Navbar = () => {
     "/tasklist": "Tasks",
     "/profile": "Profile",
     "/settings": "Settings",
+    "/favorites": "Favorites",
   };
 
   const getTitle = (path: string) => {
