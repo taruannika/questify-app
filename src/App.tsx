@@ -21,13 +21,13 @@ function App() {
     <div>
       <Routes>
         {/* Kaikki sivut käyttää samaa layoutia */}
-        <Route element={<Layout />}>
-          <Route path="/" element={<Home />} />
-          <Route path="/tasklist" element={<TaskListPage />} />
-          <Route path="/favorites" element={<FavoritesPage />} />
-          <Route path="/task/:id" element={<TaskPage />} />
-          <Route path="/profile" element={<ProfilePage />} />
-          <Route path="/settings" element={<SettingsPage />} />
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="tasklist" element={<TaskListPage />} />
+          <Route path="favorites" element={<FavoritesPage />} />
+          <Route path="task/:id" element={<TaskPage />} />
+          <Route path="profile" element={<ProfilePage />} />
+          <Route path="settings" element={<SettingsPage />} />
         </Route>
       </Routes>
     </div>
